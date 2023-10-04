@@ -68,14 +68,13 @@ pip install PySimpleGUI pyinstaller requests keyring python-dateutil
 1. On first use, the program will ask you for the API Key, and the endpoint.
    * For the endpoint, make sure it ends with a forward slash "/" eg:  _**https://www.schoolname.instructure.com/api/v1/**_
 2. ![image](https://github.com/Daemon0ps/Canvas_Widget/assets/133270668/95423a6d-fa01-4c3c-a356-232e628f41b1)
-3. The API Key/Token, and Endpoint are saved as Windows Credentials.
+4. The script will check the endpoint and API token.
+5. If you see a pop-up that says "SUCCESS  (OK)", then validation of the API Key and Endpoint were successful.
+* FYI: The API Key/Token, and Endpoint are saved as Windows Credentials.
 * If you have Windows 11, you can access the Credential Manager with this command:
 ```sh
 %SystemRoot%\explorer.exe "shell:::{1206F5F1-0569-412C-8FEC-3204630DFB70}"
 ```
-4. The script will check the endpoint and API token.
-5. If you see a pop-up that says "SUCESS  (OK)", then validation of the API Key and Endpoint were successful.
-
 
 
 
